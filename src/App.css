@@ -1,0 +1,135 @@
+.App-header{
+  height:200px;
+  background-color: rgb(240, 127, 255);
+  text-align: center;
+  display: flex;
+  position: sticky;
+  top:0px;
+}
+.images{
+  width:30%;
+}
+.title{
+  width:70%;
+  margin-left: -100px;
+  margin-top: -10px;
+}
+.App-header h1{
+ padding: 50px 10px 10px 10px;
+}
+.App-header input{
+  padding: 10px;
+  width:300px;
+  border-radius: 20px;
+  border: none;
+}
+.App-header .images img{
+  max-width: 200px;
+}
+.product-list{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  width:1000px;
+}
+.product{
+  margin: 20px;
+  width:200px;
+  height:350px;
+  background-color: rgba(240, 127, 255, 0.418);
+  border-radius: 10px;
+}
+
+.product img{
+  height:200px;
+  width:150px;
+  margin: 10px 25px 0px 25px;
+  align-self: center;
+}
+.product h2{
+   font-size: 15px;
+   text-align: center;
+}
+.product p{
+  font-size: 12px;
+  margin-top: -10px;
+  text-align: center;
+}
+.product button{
+  padding: 8px;
+  width:150px;
+  background-color: rgb(240, 127, 255);
+  color: white;
+  text-shadow: 1px 1px 5px black;
+  border: none;
+  margin: 0px 30px;
+  border-radius: 20px;
+
+}
+#cart{
+  float: right;
+  margin-top: -1200px;
+  margin-right: 30px;
+  background-color: rgba(241, 132, 255, 0.63);
+  height:1000px;
+  width:300px;
+  border-radius: 20px;
+  
+  
+ 
+}
+#cart h2{
+  text-align: center;
+  font-size: 15px;
+  
+}
+#cart img{
+  max-width: 100px;
+}
+.item-details h3 {
+    font-size: 15px;
+    margin: 5px;
+}
+
+.item-info{
+  display: flex;
+}
+.remove-button{
+   margin: 10px;
+  height: 30px;
+  background-color: rgba(225, 0, 255, 0.87);
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+.item-actions{
+  display: flex;
+}
+.quantity{
+  display: flex;
+}
+.quantity button{
+  height:30px;
+  width:30px;
+  border-radius: 50px;
+  margin: 10px;
+  border: none;
+ 
+}
+.add{
+background-color: rgb(110, 255, 110);
+}
+.sub{
+  background-color: rgb(255, 84, 84);
+}
+.checkout-button{
+  padding: 10px;
+  background-color: rgb(225, 0, 255);
+  border: none;
+  margin:0px 45px;
+  width:200px;
+  border-radius: 20px;
+}
+.total{
+  text-align: center;
+}
